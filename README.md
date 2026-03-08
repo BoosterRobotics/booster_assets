@@ -24,7 +24,8 @@ Robot Configurations
 Motion and Data Files
 ---------------------
 
-- `motions/` contains retargeted motion data for booster robots. Currently only a few K1 example motions are provided.
+- `motions/` contains retargeted motion data for Booster robots, including K1 example motions and T1 dance motions.
+- `motions/T1/` contains T1 motion examples at the top level, while `motions/T1/csv/` and `motions/T1/pkl/` keep the larger source motion archives.
 
 ### Motion CSV Format
 
@@ -93,6 +94,7 @@ Right_Ankle_Roll
 |----------------------------|-----|----------------------------------------------------|
 | k1_fight_001.csv           | 30  | Fighting motion sequence                           |
 | k1_mj2_seg1.csv            | 50  | MJ dance segment                                   |
+| CLIO_Outsai_stageii.csv    | 30  | T1 stage-II dance motion sequence                  |
 
 
 Python installation and usage
