@@ -569,7 +569,7 @@
     name="right_elbow_yaw_link">
     <inertial>
       <origin
-        xyz="-0.000107 0.11022 0.000587"
+        xyz="-0.000107 -0.11022 0.000587"
         rpy="0 0 0" />
       <mass
         value="0.329214" />
